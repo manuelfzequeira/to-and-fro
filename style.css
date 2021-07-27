@@ -4,12 +4,10 @@
 }
 html {
   width: 100%;
-  
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100%;
-  
 }
 .container {
   display: grid;
@@ -54,12 +52,16 @@ ul {
   justify-content: flex-end;
   list-style-type: none;
   padding: 10px;
-  background-color: #FBE7C6;
+  background-color: #fbe7c6;
+  border-radius: 15px;
 }
 header {
+  color: rgb(24, 92, 69);
   text-align: center;
-  background-color: #B4F8C8;
+  background-color: #b4f8c8;
   padding: 25px;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 .headernav {
   display: flex;
@@ -80,23 +82,23 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "card card card"
-  "card card card";
+  grid-template-areas:
+    "card card card"
+    "card card card";
   gap: 20px;
 }
 .cards {
   width: auto;
   display: grid;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 2px 16px;
   border-radius: 15px;
-  background-color: #A0E7E5;
+  background-color: #a0e7e5;
   text-align: center;
 }
 .cards:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .card_image {
   object-fit: cover;
@@ -104,19 +106,22 @@ header {
   height: auto;
 }
 .card_content {
-  color: white;
+  color: gray;
+  padding: 10px;
 }
 aside {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .previous_posts {
   width: 100%;
   height: 350px;
-  background-color: #FFFFCC;
+  background-color: #ffffcc;
   text-align: center;
   padding: auto;
   margin-top: 20px;
@@ -126,7 +131,7 @@ aside {
 .catagories {
   width: 100%;
   height: 250px;
-  background-color: #FFFFCC;
+  background-color: #ffffcc;
   text-align: center;
   padding: auto;
   margin-top: 20px;
@@ -137,7 +142,8 @@ footer {
   width: 100%;
   height: 150px;
   text-align: center;
-  background-color: #FBE7C6;
+  background-color: #fbe7c6;
   /*FAA69E FBE7C6*/
   margin-top: 20px;
+  border-radius: 25px;
 }
