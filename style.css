@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav nav nav nav"
+    "hd hd hd hd"
+    "main main main sd"
+    "ft ft ft ft";
+}
+#one {
+  grid-area: nav;
+}
+#two {
+  grid-area: hd;
+}
+#three {
+  grid-area: main;
+}
+#four {
+  grid-area: sd;
+}
+#five {
+  grid-area: ft;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.menu {
+  float: right;
+  margin: 10px;
+}
+ul {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #FBE7C6;
+}
+header {
+  text-align: center;
+  background-color: #B4F8C8;
+  padding: 25px;
+}
+.headernav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.religion {
+  width: 240px;
+  height: 10px;
+  padding: 15px;
+}
+.posts {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "card card card"
+  "card card card";
+  gap: 20px;
+}
+.cards {
+  width: auto;
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+  border-radius: 15px;
+  background-color: #A0E7E5;
+  text-align: center;
+}
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card_image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.card_content {
+  color: white;
+}
+aside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.previous_posts {
+  width: 100%;
+  height: 350px;
+  background-color: #FFFFCC;
+  text-align: center;
+  padding: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.catagories {
+  width: 100%;
+  height: 250px;
+  background-color: #FFFFCC;
+  text-align: center;
+  padding: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+footer {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: #FBE7C6;
+  /*FAA69E FBE7C6*/
+  margin-top: 20px;
+}
