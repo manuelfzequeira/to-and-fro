@@ -16,48 +16,23 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "nav nav nav nav"
     "hd hd hd hd"
     "main main main sd"
     "ft ft ft ft";
 }
 #one {
-  grid-area: nav;
-}
-#two {
   grid-area: hd;
 }
-#three {
+#two {
   grid-area: main;
 }
-#four {
+#three {
   grid-area: sd;
 }
-#five {
+#four {
   grid-area: ft;
 }
-/*.navbar {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-.menu {
-  float: right;
-  margin: 10px;
-}
-ul {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  list-style-type: none;
-  padding: 10px;
-  background-color: #fbe7c6;
-  border-radius: 15px;
-}*/
-header {
+.header {
   color: rgb(24, 92, 69);
   background: linear-gradient(#b4f8c8, #ffffcc);
   text-align: center;
@@ -75,7 +50,7 @@ header {
   color: #797909;
   text-decoration: none;
 }
-section {
+.blog-posts {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -113,8 +88,8 @@ section {
   color: #3e9693;
   text-decoration: none;
 }
-aside {
-  width: 90%;
+.aside {
+  width: 95%;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -164,7 +139,7 @@ aside {
   list-style-type: none;
   list-style-position: inside;
 }
-footer {
+.footer {
   color: #b3b33f;
   width: auto;
   height: 130px;
@@ -176,4 +151,3 @@ footer {
   border-radius: 25px;
 }
 /*FAA69E FBE7C6*/
-
