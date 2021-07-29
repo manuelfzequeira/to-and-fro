@@ -68,8 +68,13 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.religion {
+  width: 240px;
+  height: 10px;
+  padding: 15px;
 }
 .religion a {
   color: #797909;
@@ -166,14 +171,13 @@ aside {
 }
 footer {
   color: #b3b33f;
-  width: auto;
+  width: 100%;
   height: 130px;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: center;
   background: linear-gradient(#ffffcc, #e7be7c);
   padding: 25px;
   margin-top: 20px;
   border-radius: 25px;
 }
 /*FAA69E FBE7C6*/
-
