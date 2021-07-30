@@ -61,7 +61,6 @@ body {
     "card card card"
     "card card card";
   gap: 20px;
-  
 }
 .post {
   width: auto;
@@ -96,9 +95,6 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   margin-right: 20px;
-  
-  /*margin-left: 10px;
-  margin-right: 20px;*/
 }
 .about {
   width: auto;
@@ -108,7 +104,6 @@ body {
   text-align: left;
   padding: 15px;
   border-radius: 15px;
-  
 }
 .previous-posts {
   width: auto;
