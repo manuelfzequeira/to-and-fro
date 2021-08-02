@@ -76,6 +76,7 @@ body {
 .post:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .post-image {
   width: 100%;
   height: auto;
@@ -152,7 +153,7 @@ body {
     font-size: 28px;
     font-weight: 300;
     min-height: 100%;
-    }   
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -200,7 +201,7 @@ body {
     font-size: 28px;
     font-weight: 300;
     min-height: 100%;
-    }   
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -233,6 +234,11 @@ body {
       "card card card"
       "card card card";
     gap: 20px;
+  }
+  .post-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px;
   }
 }
 /* final */
