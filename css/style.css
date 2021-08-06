@@ -1,6 +1,6 @@
-@import url(css/header-nav.css);
-@import url(css/cards.css);
-@import url(css/aside.css);
+@import url(header-nav.css);
+@import url(cards.css);
+@import url(aside.css);
 * {
   margin: 0;
   padding: 0;
