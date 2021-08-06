@@ -1,0 +1,8 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
